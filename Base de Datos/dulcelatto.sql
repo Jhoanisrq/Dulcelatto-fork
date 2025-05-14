@@ -91,7 +91,45 @@ INSERT INTO `productos` (`id`,`id_catg` ,`nombre`, `descripcion`, `precio`, `ima
 (29, 7, 'Parfait de Yogur Griego y Frutas', 'Capas frescas de yogur cremoso, granola tostada con miel y frutas naturales como kiwi, fresas y arándanos', 6.10, '../assets/img/postres/parfait_de_yogur_griego_y_frutas.jpg'),
 (30, 2, 'Helado de Maracuyá con Chips de Chocolate', 'Helado tropical con toque ácido y trozos crujientes de chocolate.', 7.30, '../assets/img/postres/helado_de_maracuya_con_chips_de_chocolate.jpg'),
 (31, 1, 'Torta de Plátano y Nuez Caramelizada', 'Bizcocho húmedo de plátano con nueces tostadas y glaseado de caramelo caliente', 55.60, '../assets/img/postres/torta_de_platano_y_nuez_caramelizada.jpg');
-
+(32, 4, 'Cupcake de Chocolate Triple', 'Bizcocho de chocolate esponjoso, relleno de ganache de chocolate oscuro y cubierto con frosting de chocolate con chispas. 6 por unidad', 12.10 , '../assets/img/postres/Dulcelatto/assets/img/postres/cupcake_de_chocolate_triple.jpg' )
+(33, 4, 'Cupcake de Vainilla Clásico', 'Esponjoso pastel de vainilla con un ligero glaseado de mantequilla de vainilla, decorado con chispas de colores. 6 por unidad', 11.30, '../assets/img/postres/cupcake_de_vainilla_clasico.jpg')
+(34, 4, 'Cupcake de Zanahoria con Nueces', 'Pastel húmedo de zanahoria, con toques de canela y nuez, cubierto con glaseado de queso crema y decorado con nueces picadas. 6 por unidad',13.30 , '../assets/img/postres/cupcake_de_zanahoria_con_nueces.jpg')
+(35, 4, 'Cupcake de Limón y Merengue', 'Base de pastel de limón suave, con un centro cremoso de limón y coronado con un merengue tostado. 6 por unidad', 12.40, '../assets/img/postres/cupcake_de_limon_y_merengue.jpg')
+(36, 4, 'Cupcake de Frutas del Bosque', 'Bizcocho de vainilla con frutos del bosque (fresas, moras y frambuesas), cubierto con crema batida y frutas frescas 6 por unidad', 11.50, '../assets/img/postres/cupcake_de_frutas_del_bosque.jpg')
+(37, 4, 'Cupcake de Café Mocha', 'Un pastel con sabor a café y cacao, cubierto con crema de café suave y decorado con granos de café cubiertos de chocolate 6 por unidad', 10.80, '../assets/img/postres/cupcake_de_cafe_mocha.jpg')
+(38, 4, 'Cupcake de Menta y Chocolate', 'Una combinación clásica que siempre sorprende. El bizcocho de chocolate oscuro es húmedo y esponjoso, mientras que el glaseado de menta es refrescante y cremoso. Decorado con hojuelas de chocolate oscuro y una hoja de menta fresca, que le da un toque visual elegante. 6 por unidad', 11.60, '../assets/img/postres/cupcake_de_menta_y_chocolate.jpeg')
+(39, 4, 'Cupcake de Dulce de Leche', 'Un cupcake esponjoso y suave, relleno generosamente con dulce de leche cremoso. El glaseado también está hecho con dulce de leche, que se mezcla con crema de mantequilla para un acabado suave y sedoso. Decorado con un hilo de caramelo y una pizca de sal marina, para equilibrar el dulzor. 6 por unidad', 10.70, '../assets/img/postres/cupcake_de_dulce_de_leche.jpg')
+(40, 4, 'Cupcake de Fresa y Crema', 'Base esponjosa de vainilla rellena de mermelada de fresa y cubierta con crema batida y fresas frescas. 6 por unidad', 11.60, '../assets/img/postres/cupcake_de_fresa_y_crema.jpg')
+(41, 4, 'Cupcake de Oreo', 'Bizcocho de chocolate está mezclado con trozos de galleta Oreo, que aportan un toque crujiente en cada bocado. El glaseado es una crema de queso ligeramente dulce, mezclada con Oreo triturado, y se corona con media galleta como toque final. 6 por unidad', 12.30, '../assets/img/postres/cupcake_de_oreo.jpg')
+(42, 5, 'Cheesecake de Queso Azul y Nueces', 'Una reinterpretación del clásico cheesecake, pero con un toque salado. La base crujiente de galletas saladas sostiene una crema suave de queso azul, decorada con nueces caramelizadas y un toque de miel.', 14.50, '../assets/img/postres/cheesecake_de_queso_azul_y_nueces.png'),
+(43, 1, 'Tarta de Queso y Cebolla Caramelizada', 'Masa dorada con un relleno cremoso de queso y cebolla caramelizada.', 22.10, '../assets/img/postres/tarta_de_queso_y_cebolla_caramelizada.jpeg'),
+(44, 5, 'Flan de Queso Manchego', 'Un flan suave y cremoso con el sabor profundo del queso manchego.', 31.50, '../assets/img/postres/flan_de_queso_manchego.jpg'),
+(45, 5, 'Profiteroles Rellenos de Paté', 'Masa choux rellena de paté cremoso, perfecta para una entrada elegante.', 10.00, '../assets/img/postres/profiteroles_rellenos_de_pate.jpg'),
+(46, 5, 'Mousse de Queso Parmesano y Hierbas', 'Suave mousse de parmesano con un toque de hierbas frescas.', 11.20, '../assets/img/postres/mousse_de_queso_parmesano_y_hierbas.jpg'),
+(47, 4, 'Magdalenas Saladas de Jamon y Queso', 'Magdalenas esponjosas con trozos de jamón ahumado y queso fundido. Suave y doradas, combinan perfectamente el sabor salado del jamón con la cremosidad del queso. Ideales para desayunos o meriendas saladas.', 10.80, '../assets/img/postres/magdalenas_saladas_de_jamon_y_queso.jpg'),
+(48, 5, 'Bizcocho de Parmesano y Tomates Secos', 'Bizcocho esponjoso con parmesano y tomates secos.', 7.90, '../assets/img/postres/bizcocho_de_parmesano_y_tomates_secos.jpg'),
+(49, 1, 'Tarta de Espinacas y Ricotta', 'Masa crujiente rellena de espinacas salteadas y queso ricotta.', 13.50, '../assets/img/postres/tarta_de_espinacas_y_ricotta.jpg'),
+(50, 1, 'Pastel de Queso y Jamón Serrano', 'Capas de queso fundido y jamón serrano en un pastel dorado.', 15.60, '../assets/img/postres/pastel_de_queso_y_jamon_serrano.jpg'),
+(51, 5, 'Mousse de Salmón Ahumado', 'Mousse ligera de salmón ahumado y queso crema.', 12.40, '../assets/img/postres/mousse_de_salmon_ahumado.jpg'),
+(52, 3, 'Galletas Saladas de Queso y Hierbas', 'Crujientes galletas con queso cheddar y hierbas frescas.', 6.70, '../assets/img/postres/galletas_saladas_de_queso_y_hierbas.jpg'),
+(53, 5, 'Quiche de Espárragos y Gruyère', 'Masa crujiente con espárragos frescos y queso gruyère.', 14.00, '../assets/img/postres/quiche_de_esparragos_y_gruyere.jpg'),
+(54, 5, 'Crepes de Queso y Jamón', 'Crepes doradas rellenas de queso fundido y jamón.', 10.20, '../assets/img/postres/crepes_de_queso_y_jamon.jpg'),
+(55, 5, 'Soufflé de Queso Cheddar', 'Soufflé esponjoso de queso cheddar con un toque de pimienta.', 9.90, '../assets/img/postres/souffle_de_queso_cheddar.jpeg'),
+(56, 5, 'Pannacotta de Tomate y Albahaca', 'Panna cotta salada de tomate, decorada con albahaca.', 11.00, '../assets/img/postres/pannacotta_de_tomate_y_albahaca.jpg'),
+(57, 5, 'Mini Tartas de Queso y Espinaca', 'Pequeñas tartaletas con espinacas y mezcla de quesos.', 8.50, '../assets/img/postres/mini_tartas_de_queso_y_espinaca.jpeg'),
+(58, 5, 'Choux Salados Rellenos de Queso Azul', 'Choux rellenos de crema de queso azul suave.', 9.00, '../assets/img/postres/choux_de_queso_azul.png'),
+(59, 2, 'Helado de Vainilla Natural', 'Una receta clásica elaborada con vainilla natural y auténtica. Su sabor suave y delicado, junto con su cremosidad, lo convierten en el acompañante perfecto para otros postres.', 7.20, '../assets/img/postres/helado_de_vainilla_natural.jpg'),
+(60, 5, 'Flan de Puerros y Gruyère', 'Flan suave con puerros dulces y queso gruyère.', 9.70, '../assets/img/postres/flan_de_puerros_y_gruyere.jpg'),
+(61, 4, 'Cupcakes de Queso Feta y Aceitunas', 'Cupcakes esponjosos con queso feta y aceitunas negras.', 8.20, '../assets/img/postres/cupcakes_de_queso_feta_y_aceituna.jpg'),
+(62, 1, 'Pastel de Pollo y Queso', 'Pastel salado con pollo desmenuzado y mezcla de quesos.', 13.80, '../assets/img/postres/pastel_de_pollo_y_queso.jpg'),
+(63, 5, 'Profiteroles de Queso Brie', 'Choux rellenos de queso brie suave y mermelada.', 9.90, '../assets/img/postres/profiteroles_de_queso_brie.jpg'),
+(64, 5, 'Soufflé de Espinaca y Queso de Cabra', 'Soufflé esponjoso con espinacas y queso de cabra.', 11.20, '../assets/img/postres/souffle_de_espinaca_y_queso_de_cabra.jpg'),
+(65, 5, 'Croquetas de Queso Gorgonzola', 'Croquetas crujientes con corazón de queso gorgonzola.', 7.60, '../assets/img/postres/croquetas_de_gorgonzola.jpg'),
+(66, 3, 'Galletas de Parmesano y Pimienta', 'Galletas saladas y crujientes de parmesano.', 5.80, '../assets/img/postres/galletas_de_parmesano.jpg'),
+(67, 5, 'Gelatina de Queso con Mermelada de Tomate', 'Gelatina cremosa de queso con mermelada casera de tomate.', 7.40, '../assets/img/postres/gelatina_de_queso_con_mermelada_de_tomate.jpg'),
+(68, 5, 'Napoleón de Queso Brie y Almendras', 'Capas de hojaldre, queso brie y almendras tostadas.', 12.70, '../assets/img/postres/napoleon_de_queso_brie_y_almendras.jpeg'),
+(69, 5, 'Tartaletas de Queso Camembert y Peras', 'Masa crujiente con queso camembert y peras caramelizadas.', 11.50, '../assets/img/postres/tartaletas_de_queso_camembert_y_peras.jpg'),
+(70, 2, 'Helado de Pistacho Premium', 'Un helado suave y cremoso elaborado con auténticos pistachos seleccionados. Su color verde natural y su sabor profundo lo convierten en una opción sofisticada para los amantes de los frutos secos.', 10.20, '../assets/img/postres/helado_de_pistacho_premium.jpg');
 -- --------------------------------------------------------
 
 --
@@ -131,7 +169,7 @@ ALTER TABLE `categorias` AUTO_INCREMENT=8;
 --
 ALTER TABLE `productos`
 MODIFY `id` int(11) NOT NULL NOT NULL AUTO_INCREMENT PRIMARY KEY;
-ALTER TABLE `productos` AUTO_INCREMENT=32;
+ALTER TABLE `productos` AUTO_INCREMENT=71;
 
 --
 -- AUTO_INCREMENT for table `usuario`
