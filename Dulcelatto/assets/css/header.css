@@ -351,7 +351,7 @@
     }
 
     /* Ocultar header-middle y header-bottom en pantallas pequeñas */
-    .header-middle, .header-bottom {
+    .header-middle {
         display: none; /* No se mostrarán estas secciones */
     }
     
