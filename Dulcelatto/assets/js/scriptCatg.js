@@ -52,14 +52,21 @@ document.addEventListener('DOMContentLoaded', function() {
             productoDiv.classList.add('producto');
             productoDiv.style.cursor = 'pointer';
 
-            let priceHTML = `<span>${producto.price || 'Precio no disponible'}</span>`;
+            let priceHTML = '';
+                const price = producto.price || 'Precio no disponible';
+                if (typeof price === 'string' && price.includes('SALE')) {
+                    const [originalPrice, salePrice] = price.split(' SALE ');
+                    priceHTML = `<span class="old-price">${originalPrice}</span><span>${salePrice}</span>`;
+                } else {
+                    priceHTML = `<span>${price}</span>`;
+                }
 
-            productoDiv.innerHTML = `
-                <img src="${producto.imagen}" alt="${producto.nombre}">
-                <h3>${producto.nombre}</h3>
-                ${producto.rating ? `<div class="rating">${producto.rating}</div>` : ''}
-                <div class="price">Precio: S/.${priceHTML}</div>
-            `;
+                productoDiv.innerHTML = `
+                    <img src="${producto.imagen}" alt="${producto.nombre}">
+                    <h3>${producto.nombre}</h3>
+                    ${producto.rating ? `<div class="rating">${producto.rating}</div>` : ''}
+                    <div class="price">Precio: S/.${priceHTML}</div>
+                `;
 
             productoDiv.addEventListener('click', () => {
                 openProductModal(producto);
@@ -78,6 +85,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const modal = document.createElement('div');
         modal.classList.add('modal');
 
+        const ratingHTML = `
+            <div class="modal-rating">
+                <span>★★★★★</span>
+            </div>
+        `;
+
         modal.innerHTML = `
             <div class="modal-content">
                 <span class="modal-close">&times;</span>
@@ -86,10 +99,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="modal-right">
                     <h2>${producto.nombre}</h2>
+                    ${ratingHTML}
                     <p class="modal-price">Costo: S/ ${producto.price}</p>
                     <div class="modal-description">
                         <h3>Descripción:</h3>
                         <p>${producto.descripcion}</p>
+                    </div>
+                    <div class="modal-options">
+                        <h3>Cantidad:</h3>
+                        <input type="number" class="modal-quantity" value="1" min="1">
                     </div>
                     <button class="modal-add-to-cart">Agregar al carrito</button>
                 </div>
