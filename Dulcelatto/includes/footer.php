@@ -1,6 +1,9 @@
 <?php
 // footer.php
 ?>
+<head>
+    <link rel="stylesheet" href="../assets/css/footer.css">
+</head>
 <footer class="site-footer">
     <div class="footer-content">
         <div class="footer-column">
